@@ -1,4 +1,32 @@
+
 ## Chapter 006 重新组织函数
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Chapter 006 重新组织函数](#chapter-006-%E9%87%8D%E6%96%B0%E7%BB%84%E7%BB%87%E5%87%BD%E6%95%B0)
+  - [Extract Method](#extract-method)
+    - [做法](#%E5%81%9A%E6%B3%95)
+  - [Inline Method](#inline-method)
+    - [做法](#%E5%81%9A%E6%B3%95-1)
+  - [Inline Temp](#inline-temp)
+    - [做法](#%E5%81%9A%E6%B3%95-2)
+  - [Replace temp with Query](#replace-temp-with-query)
+    - [做法](#%E5%81%9A%E6%B3%95-3)
+  - [Introduce Explaining Variable](#introduce-explaining-variable)
+    - [做法](#%E5%81%9A%E6%B3%95-4)
+  - [Split Temporary Variable](#split-temporary-variable)
+    - [做法](#%E5%81%9A%E6%B3%95-5)
+  - [Remove Assignments to Parameters](#remove-assignments-to-parameters)
+    - [做法](#%E5%81%9A%E6%B3%95-6)
+  - [Replace Method with Method object](#replace-method-with-method-object)
+    - [做法](#%E5%81%9A%E6%B3%95-7)
+  - [Substitute Algorithm](#substitute-algorithm)
+    - [做法](#%E5%81%9A%E6%B3%95-8)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ### Extract Method
 
